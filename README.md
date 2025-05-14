@@ -13,16 +13,24 @@ It allows users to:
 🔧 Tech Stack:
 
 -> Frontend: React.js + Tailwind CSS
+
 -> Backend: Node.js, Express.js
--> Database: MongoDB with Mongoose ODM
+
+-> Database: MongoDB with Mongoose 
+
 -> HTTP Client: Axios for API communication
+
 
 ✅ Features:
 
 -> Create and submit a blog post
+
 -> View up to 50 latest blogs
+
 -> Blogs sorted by newest first
+
 -> Alerts on successful or failed post submissions
+
 -> Responsive UI with clean layout
 
 
