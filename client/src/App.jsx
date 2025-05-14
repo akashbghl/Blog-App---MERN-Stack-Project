@@ -18,7 +18,7 @@ function App() {
   fetchPosts();
   },[]);
   return (
-    <div className='w-[60%] border-black border  m-auto bg-black bg-no-repeat'
+    <div className='w-[60%] border-black border  m-auto bg-black min-h-screen bg-no-repeat'
     style={{backgroundImage: `URL(${background})`}}
     >
       <BlogForm/>
