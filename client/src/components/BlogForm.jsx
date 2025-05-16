@@ -10,7 +10,7 @@ function BlogForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/posts', form);
+      await axios.post('https://blog-app-mern-stack-project.onrender.com/posts', form);
       alert('Blog posted successfully!')
       setForm({title:'',content:''})
     }
