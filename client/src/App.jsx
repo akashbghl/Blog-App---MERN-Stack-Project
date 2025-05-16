@@ -9,7 +9,7 @@ function App() {
   useEffect(()=>{
     const fetchPosts = async ()=>{
     try {
-      const res = await axios.get('http://localhost:5000/posts');
+      const res = await axios.get('https://blog-app-mern-stack-project.onrender.com/posts');
       setPosts(res.data);
     } catch (error) {
       console.error(error.message);
